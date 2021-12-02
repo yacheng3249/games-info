@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/games-info/static/js/main.6274b431.chunk.js",
+    "main.js.map": "/games-info/static/js/main.6274b431.chunk.js.map",
+    "runtime-main.js": "/games-info/static/js/runtime-main.8fa544b5.js",
+    "runtime-main.js.map": "/games-info/static/js/runtime-main.8fa544b5.js.map",
+    "static/js/2.3dc9cdf2.chunk.js": "/games-info/static/js/2.3dc9cdf2.chunk.js",
+    "static/js/2.3dc9cdf2.chunk.js.map": "/games-info/static/js/2.3dc9cdf2.chunk.js.map",
+    "static/js/3.4bf5ebde.chunk.js": "/games-info/static/js/3.4bf5ebde.chunk.js",
+    "static/js/3.4bf5ebde.chunk.js.map": "/games-info/static/js/3.4bf5ebde.chunk.js.map",
+    "index.html": "/games-info/index.html",
+    "static/js/2.3dc9cdf2.chunk.js.LICENSE.txt": "/games-info/static/js/2.3dc9cdf2.chunk.js.LICENSE.txt",
+    "static/media/MacOS.ffeaf757.svg": "/games-info/static/media/MacOS.ffeaf757.svg",
+    "static/media/XboxSeriesX.76fd25ef.svg": "/games-info/static/media/XboxSeriesX.76fd25ef.svg",
+    "static/media/apple.571c3279.svg": "/games-info/static/media/apple.571c3279.svg",
+    "static/media/gamepad.c9269ef5.svg": "/games-info/static/media/gamepad.c9269ef5.svg",
+    "static/media/logo.9b6b8655.svg": "/games-info/static/media/logo.9b6b8655.svg",
+    "static/media/nintendo.f579be04.svg": "/games-info/static/media/nintendo.f579be04.svg",
+    "static/media/playstation.18cc4b9c.svg": "/games-info/static/media/playstation.18cc4b9c.svg",
+    "static/media/playstation4.a3b3657d.svg": "/games-info/static/media/playstation4.a3b3657d.svg",
+    "static/media/playstation5.19f315fc.svg": "/games-info/static/media/playstation5.19f315fc.svg",
+    "static/media/steam.d7b8819f.svg": "/games-info/static/media/steam.d7b8819f.svg",
+    "static/media/xbox.3e7db735.svg": "/games-info/static/media/xbox.3e7db735.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fa544b5.js",
+    "static/js/2.3dc9cdf2.chunk.js",
+    "static/js/main.6274b431.chunk.js"
+  ]
+}
