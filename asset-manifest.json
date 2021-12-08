@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/games-info/static/js/main.6274b431.chunk.js",
-    "main.js.map": "/games-info/static/js/main.6274b431.chunk.js.map",
-    "runtime-main.js": "/games-info/static/js/runtime-main.8fa544b5.js",
-    "runtime-main.js.map": "/games-info/static/js/runtime-main.8fa544b5.js.map",
-    "static/js/2.3dc9cdf2.chunk.js": "/games-info/static/js/2.3dc9cdf2.chunk.js",
-    "static/js/2.3dc9cdf2.chunk.js.map": "/games-info/static/js/2.3dc9cdf2.chunk.js.map",
-    "static/js/3.4bf5ebde.chunk.js": "/games-info/static/js/3.4bf5ebde.chunk.js",
-    "static/js/3.4bf5ebde.chunk.js.map": "/games-info/static/js/3.4bf5ebde.chunk.js.map",
+    "main.js": "/games-info/static/js/main.5302c885.chunk.js",
+    "main.js.map": "/games-info/static/js/main.5302c885.chunk.js.map",
+    "runtime-main.js": "/games-info/static/js/runtime-main.338f0018.js",
+    "runtime-main.js.map": "/games-info/static/js/runtime-main.338f0018.js.map",
+    "static/js/2.6a6d4d4d.chunk.js": "/games-info/static/js/2.6a6d4d4d.chunk.js",
+    "static/js/2.6a6d4d4d.chunk.js.map": "/games-info/static/js/2.6a6d4d4d.chunk.js.map",
+    "static/js/3.2d5490c3.chunk.js": "/games-info/static/js/3.2d5490c3.chunk.js",
+    "static/js/3.2d5490c3.chunk.js.map": "/games-info/static/js/3.2d5490c3.chunk.js.map",
     "index.html": "/games-info/index.html",
-    "static/js/2.3dc9cdf2.chunk.js.LICENSE.txt": "/games-info/static/js/2.3dc9cdf2.chunk.js.LICENSE.txt",
+    "static/js/2.6a6d4d4d.chunk.js.LICENSE.txt": "/games-info/static/js/2.6a6d4d4d.chunk.js.LICENSE.txt",
     "static/media/MacOS.ffeaf757.svg": "/games-info/static/media/MacOS.ffeaf757.svg",
     "static/media/XboxSeriesX.76fd25ef.svg": "/games-info/static/media/XboxSeriesX.76fd25ef.svg",
     "static/media/apple.571c3279.svg": "/games-info/static/media/apple.571c3279.svg",
@@ -23,8 +23,8 @@
     "static/media/xbox.3e7db735.svg": "/games-info/static/media/xbox.3e7db735.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8fa544b5.js",
-    "static/js/2.3dc9cdf2.chunk.js",
-    "static/js/main.6274b431.chunk.js"
+    "static/js/runtime-main.338f0018.js",
+    "static/js/2.6a6d4d4d.chunk.js",
+    "static/js/main.5302c885.chunk.js"
   ]
 }
