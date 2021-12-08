@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 import logo from '../img/logo.svg'
 import { fetchSearch } from "../actions/gamesAction";
@@ -32,7 +34,9 @@ const Nav = () => {
       </Logo>
       <form className="search">
         <input type="text" onChange={inputHandler} value={textInput} />
-        <button onClick={searchGameHandler}>Search</button>
+        <button onClick={searchGameHandler}>
+          <FontAwesomeIcon icon={faSearch} />
+        </button>
       </form>
     </StyledNav>
   );
@@ -48,7 +52,7 @@ const StyledNav = styled(motion.div)`
     border: none;
     outline: none;
     margin-top: 1rem;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background-color: #e0dfdf;
   }
   button {
     font-size: 1.5rem;
@@ -57,6 +61,17 @@ const StyledNav = styled(motion.div)`
     cursor: pointer;
     background: #ff7676;
     color: white;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 3rem 0rem 0rem;
+    input {
+      width: 60%;
+      padding: 0.3rem;
+    }
+    button {
+      padding: 0.3rem 1rem;
+    }
   }
 `;
 

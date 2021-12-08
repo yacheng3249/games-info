@@ -6,7 +6,7 @@ const initState = {
 }
 
 const gamesReducer = (state = initState, action) => {
-  switch (action.type) {
+  switch ( action.type ) {
     case "FETCH_GAMES":
       return { 
         ...state,

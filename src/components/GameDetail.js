@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { useSelector } from "react-redux";
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
@@ -26,7 +28,7 @@ const GameDetail = ({ pathId }) => {
 
   const exitDetailHandler = (e) => {
     const element = e.target;
-    if (element.classList.contains('shadow')) {
+    if (element.classList.contains('shadow') || element.classList.contains('back')) {
       document.body.style.overflow = 'auto';
       history.push('/');
     }
@@ -74,6 +76,13 @@ const GameDetail = ({ pathId }) => {
     <>
       {!isLoading && (
         <CardShadow className='shadow' onClick={exitDetailHandler}>
+          <Back>
+            <FontAwesomeIcon
+            className='back'
+            style={{ cursor: "pointer", color: "white", marginLeft: "1rem" }}
+            onClick={exitDetailHandler}
+            size="1x" icon={faArrowLeft} />
+          </Back>
           <Detail layoutId={pathId}>
             <Stats>
               <Rating>
@@ -136,12 +145,38 @@ const Detail = styled(motion.div)`
   img {
     width: 100%;
   }
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem 1rem;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+  }
+`;
+
+const Back = styled.div`
+  display: none;   
+  @media screen and (max-width: 768px) {
+    background-color: gray;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+  }
 `;
 
 const Stats = styled(motion.div)`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
 `;
 
 const Rating = styled(motion.div)`
@@ -154,6 +189,10 @@ const Rating = styled(motion.div)`
 
 const Info = styled(motion.div)`
   text-align: center;
+
+  @media screen and (max-width: 768px) {
+    text-align: left;
+  }
 `;
 
 const Platforms = styled(motion.div)`
@@ -161,6 +200,15 @@ const Platforms = styled(motion.div)`
   justify-content: space-evenly;
   img {
     margin-left: 3rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    justify-content: left;
+    img {
+      margin-left: 0rem;
+      margin-right: 1rem;
+      width: 10%;
+    }
   }
 `;
 
@@ -170,6 +218,13 @@ const Media = styled(motion.div)`
 
 const Description = styled(motion.div)`
   margin: 5rem 0rem;
+
+  @media screen and (max-width: 768px) {
+    margin: 2rem 0rem;
+    p {
+      font-size: 1rem;
+    }
+  }
 `;
 
 export default GameDetail;
